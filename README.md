@@ -1,14 +1,53 @@
-# RF Stock Statistical Analysis
+<a id="readme-top"></a>
+
+<br />
+<div align="center">
+  <h3 align="center">RF Stock Statistical Analysis</h3>
+  <p align="center">
+    Excel statistical analysis of Regions Financial (RF) stock returns, quarterly results, and the EPS-price relationship - QNT 2020 at Baruch College
+    <br />
+    <a href="https://github.com/Swikc4/rf-stock-statistical-analysis"><strong>Explore the repo »</strong></a>
+  </p>
+</div>
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a>
+      <ul><li><a href="#built-with">Built With</a></li></ul>
+    </li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#assignment">Assignment</a></li>
+    <li><a href="#findings">Findings</a></li>
+    <li><a href="#data-sources">Data Sources</a></li>
+    <li><a href="#revisions-after-feedback">Revisions After Feedback</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+## About The Project
 
 I completed this Excel project for QNT 2020 at Baruch College using Regions Financial (RF) stock and financial data. I used statistics to study daily returns, quarterly financial results, and the relationship between earnings per share and stock price.
 
-## What this project is for
-
 The project gave me practice turning source data into calculations, tests, and charts in Excel. The questions were whether stock returns look normally distributed, how samples vary, whether recent financial results differ from history, whether net margins vary by quarter, and how earnings relate to share prices. It is a historical class analysis, not a current company valuation or investment recommendation.
 
-## Open the workbook
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+* ![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Getting Started
 
 Download `RF-Stock-Statistical-Analysis.xlsx` and open it in Excel. GitHub does not display an Excel preview. The workbook opens on the `RF` analysis sheet at cell F19, at 85% zoom.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Usage
 
 The full long analysis sheet is included. Use Excel's Name Box to jump to a cell:
 
@@ -24,6 +63,8 @@ The full long analysis sheet is included. Use Excel's Name Box to jump to a cell
 
 There is no Chapter 10 section in my original workbook. The other three tabs contain the price history, quarterly income statements, and dividend history used as reference data. They are not substitutes for the analysis and have been kept unchanged.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Assignment
 
 In my own words, these were the tasks:
@@ -33,6 +74,8 @@ In my own words, these were the tasks:
 - Chapter 9: Compare 2025 Q2-Q3 revenue, net income, and their quarterly growth rates with historical means using two-tailed tests at 90% confidence. Repeat with known- and unknown-SD assumptions, using critical values and p-values. The assignment framed this around tariff timing; this comparison alone cannot establish a tariff effect.
 - Chapter 11: Organize 2016-2024 net margins by calendar quarter, calculate descriptive statistics, run one-way ANOVA at the 5% level, and use Hartley's test to check equal variances.
 - Chapter 12: Match quarterly closing prices to basic EPS, run a simple linear regression, and examine the scatter, fitted-line, residual, and normal-probability charts.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Findings
 
@@ -66,7 +109,9 @@ This does not mean that a $1 increase in EPS causes a $15.31 price increase. Mor
 
 Stronger earnings are associated with higher share prices in this sample, but earnings alone do not explain the whole price pattern. Daily returns have heavy tails, and the short recent-period comparison is too limited for a broad claim that the company is improving.
 
-## Data sources
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Data Sources
 
 I kept the three source-data tabs with the workbook:
 - Daily price history: the historical-price export used for the assignment, which directed students to Nasdaq.
@@ -75,7 +120,9 @@ I kept the three source-data tabs with the workbook:
 
 These are historical source snapshots, not live feeds. The source tabs were not changed during portfolio cleanup. The assignment instructions are paraphrased above; the course PDFs are not included.
 
-## Revisions after feedback
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Revisions After Feedback
 
 I revised the workbook after instructor feedback:
 - Added references in the expected critical-value cells to my existing correct z and t values.
@@ -85,3 +132,20 @@ I revised the workbook after instructor feedback:
 - Set the opening view to the RF analysis so readers can find the chapter work immediately.
 
 I kept my chapter analysis and the original RF source-data tabs. The cleanup did not turn the workbook into a different analysis or invent corrections for unexplained deductions.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Contact
+
+Swikriti KC - [LinkedIn](https://www.linkedin.com/in/swikriti-kc/)
+
+Project Link: [https://github.com/Swikc4/rf-stock-statistical-analysis](https://github.com/Swikc4/rf-stock-statistical-analysis)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Acknowledgments
+
+* QNT 2020, Baruch College (Zicklin School of Business)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
