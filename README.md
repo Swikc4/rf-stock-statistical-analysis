@@ -22,7 +22,6 @@
     <li><a href="#findings">Findings</a></li>
     <li><a href="#data-sources">Data Sources</a></li>
     <li><a href="#revisions-after-feedback">Revisions After Feedback</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -135,17 +134,6 @@ I kept my chapter analysis and the original RF source-data tabs. The cleanup did
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Contact
-
-Swikriti KC - [LinkedIn](https://www.linkedin.com/in/swikriti-kc/)
-
-Project Link: [https://github.com/Swikc4/rf-stock-statistical-analysis](https://github.com/Swikc4/rf-stock-statistical-analysis)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Acknowledgments
 
 * QNT 2020, Baruch College (Zicklin School of Business)
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
