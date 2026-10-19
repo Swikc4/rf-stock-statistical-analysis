@@ -4,7 +4,7 @@
 <div align="center">
   <h3 align="center">RF Stock Statistical Analysis</h3>
   <p align="center">
-    Excel statistical analysis of Regions Financial (RF) stock returns, quarterly results, and the EPS-price relationship - QNT 2020 at Baruch College
+    Excel statistical analysis of Regions Financial (RF) stock returns, quarterly results, and the EPS-price relationship for QNT 2020 at Baruch College
     <br />
     <a href="https://github.com/Swikc4/rf-stock-statistical-analysis"><strong>Explore the repo »</strong></a>
   </p>
@@ -70,8 +70,8 @@ In my own words, these were the tasks:
 
 - Chapter 7: Check whether daily log returns resemble a normal distribution. Calculate the mean, standard deviation, skewness, and kurtosis; group returns by distance from the mean and compare their frequencies with the empirical rule.
 - Chapter 8: Draw ten samples of ten returns, check for duplicates, and calculate 80% confidence intervals using population-SD and sample-SD assumptions. Compare sample means and intervals with the full-data mean.
-- Chapter 9: Compare 2025 Q2-Q3 revenue, net income, and their quarterly growth rates with historical means using two-tailed tests at 90% confidence. Repeat with known- and unknown-SD assumptions, using critical values and p-values. The assignment framed this around tariff timing; this comparison alone cannot establish a tariff effect.
-- Chapter 11: Organize 2016-2024 net margins by calendar quarter, calculate descriptive statistics, run one-way ANOVA at the 5% level, and use Hartley's test to check equal variances.
+- Chapter 9: Compare 2025 Q2 to Q3 revenue, net income, and their quarterly growth rates with historical means using two-tailed tests at 90% confidence. Repeat with known- and unknown-SD assumptions, using critical values and p-values. The assignment framed this around tariff timing; this comparison alone cannot establish a tariff effect.
+- Chapter 11: Organize 2016 to 2024 net margins by calendar quarter, calculate descriptive statistics, run one-way ANOVA at the 5% level, and use Hartley's test to check equal variances.
 - Chapter 12: Match quarterly closing prices to basic EPS, run a simple linear regression, and examine the scatter, fitted-line, residual, and normal-probability charts.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -90,17 +90,17 @@ Nine of the ten sample confidence intervals contained the full-data mean at the 
 
 ### Recent financial results versus history
 
-The workbook reports mean quarterly revenue of $1,910.5 million for 2025 Q2-Q3, compared with $1,601.3 million in the historical control range. Its unknown-SD test gives p = 0.0225, below the assignment's 10% significance level. The net-income, revenue-growth, and net-income-growth tests did not reject their historical-mean nulls (p = 0.292, 0.275, and 0.651).
+The workbook reports mean quarterly revenue of $1,910.5 million for 2025 Q2 to Q3, compared with $1,601.3 million in the historical control range. Its unknown-SD test gives p = 0.0225, below the assignment's 10% significance level. The net-income, revenue-growth, and net-income-growth tests did not reject their historical-mean nulls (p = 0.292, 0.275, and 0.651).
 
 I read this as a limited signal of higher revenue in the two recent quarters, not proof of lasting improvement. Only two quarters are in the recent period, and the calculations use historical variability. These tests do not show that tariffs caused the difference.
 
 ### Net margins by calendar quarter
 
-For 2016-2024, average net margins were 34.05%, 32.01%, 35.16%, and 35.21% for Q1 through Q4. ANOVA gives p = 0.9446, so it does not identify a clear difference between quarter means. However, Hartley's variance ratio is 13.61, above the workbook's critical value of 6.31. The equal-variance assumption fails this check, so I treat the ANOVA conclusion cautiously rather than declaring that margins have no seasonality.
+For 2016 to 2024, average net margins were 34.05%, 32.01%, 35.16%, and 35.21% for Q1 through Q4. ANOVA gives p = 0.9446, so it does not identify a clear difference between quarter means. However, Hartley's variance ratio is 13.61, above the workbook's critical value of 6.31. The equal-variance assumption fails this check, so I treat the ANOVA conclusion cautiously rather than declaring that margins have no seasonality.
 
 ### Earnings and stock price
 
-The fitted regression uses 38 observations and shows a positive association between basic EPS and closing price. R-squared is 0.469, so the model accounts for about 47% of the variation in closing prices within that sample. The fitted slope is about $15.31 of closing price per $1 of EPS, with a 95% interval of $9.80-$20.81.
+The fitted regression uses 38 observations and shows a positive association between basic EPS and closing price. R-squared is 0.469, so the model accounts for about 47% of the variation in closing prices within that sample. The fitted slope is about $15.31 of closing price per $1 of EPS, with a 95% interval of $9.80 to $20.81.
 
 This does not mean that a $1 increase in EPS causes a $15.31 price increase. More than half of the sample's price variation is outside this one-variable model, and the class exercise does not address other influences or the time-series structure.
 
